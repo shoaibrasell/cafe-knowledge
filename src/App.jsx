@@ -1,15 +1,33 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header/Header'
+import "./App.css";
+import Header from "./components/Header/Header";
+import Blogs from "./components/Blogs/Blogs";
+import Bookmarks from "./components/Bookmarks/Bookmarks";
+import { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime , setReadingTime] = useState(0);
+
+  const handleAddToBookmark = (blog) => {
+    const newBookmarks =[...bookmarks, blog];
+    setBookmarks(newBookmarks);
+  };
+
+  const handleMarkAsRead = time =>{
+    //setReadingTime(readingTime + time);
+    const newReadingTime =readingTime + time;
+    setReadingTime(newReadingTime);
+  }
 
   return (
     <>
-     <Header></Header>
+      <Header></Header>
+      <div className="md:flex max-w-5xl mx-auto">
+      <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead ={handleMarkAsRead}></Blogs>
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
+      </div>
     </>
-  )
+  );
 }
- 
-export default App
+
+export default App;

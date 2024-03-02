@@ -1,52 +1,70 @@
 [
   {
-    "id": "001",
-    "cover": "[Link to cover image]",
-    "title": "The Great Gatsby",
+    "id": "1",
+    "cover": "https://i.ibb.co/pZ2Dqnc/kateryna-hliznitsova-e-Iu-CJCf-Rcv-I-unsplash.jpg",
+    "title": "The Great Gatsby The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "author_img": "[Link to author image]",
+    "author_img": "https://i.ibb.co/0CDq6N0/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
     "posted_date": "January 15, 2024",
     "reading_time": 3,
-    "hashtags": ["#classic", "#fiction", "#roaring20s"]
+    "hashtags": [
+        "#classic",
+        "#fiction",
+        "#roaring20s"
+      ]
   },
   {
-    "id": "002",
-    "cover": "[Link to cover image]",
-    "title": "To Kill a Mockingbird",
+    "id": "2",
+    "cover": "https://i.ibb.co/pZ2Dqnc/kateryna-hliznitsova-e-Iu-CJCf-Rcv-I-unsplash.jpg",
+    "title": "To Kill a Mockingbird To Kill a Mockingbird",
     "author": "Harper Lee",
-    "author_img": "[Link to author image]",
+    "author_img": "https://i.ibb.co/0CDq6N0/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
     "posted_date": "February 2, 2024",
     "reading_time": 4,
-    "hashtags": ["#classic", "#racism", "#southernlife"]
+    "hashtags": [
+      "#classic",
+       "#racism",
+        "#southernlife"
+      ]
   },
   {
-    "id": "003",
-    "cover": "[Link to cover image]",
-    "title": "1984",
-    "author": "George Orwell",
-    "author_img": "[Link to author image]",
+    "id": "3",
+    "cover": "https://i.ibb.co/pZ2Dqnc/kateryna-hliznitsova-e-Iu-CJCf-Rcv-I-unsplash.jpg",
+    "title": "1984 Kill a Mockingbird To Kill a Mockingbird",
+    "author": "George Orwell ",
+    "author_img": "https://i.ibb.co/0CDq6N0/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
     "posted_date": "March 10, 2023",
     "reading_time": 5,
-    "hashtags": ["#dystopian", "#surveillance", "#totalitarianism"]
+    "hashtags": [
+      "#dystopian",
+       "#surveillance",
+        "#totalitarianism"
+      ]
   },
   {
-    "id": "004",
-    "cover": "[Link to cover image]",
-    "title": "Pride and Prejudice",
+    "id": "4",
+    "cover": "https://i.ibb.co/pZ2Dqnc/kateryna-hliznitsova-e-Iu-CJCf-Rcv-I-unsplash.jpg",
+    "title": "Pride and Prejudice Kill a Mockingbird To Kill a Mockingbird",
     "author": "Jane Austen",
-    "author_img": "[Link to author image]",
+    "author_img": "https://i.ibb.co/0CDq6N0/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
     "posted_date": "December 5, 2023",
     "reading_time": 6,
-    "hashtags": ["#romance", "#regency", "#socialclass"]
+    "hashtags": [
+      "#romance",
+     "#regency",
+      "#socialclass"]
   },
   {
-    "id": "005",
-    "cover": "[Link to cover image]",
-    "title": "The Catcher in the Rye",
+    "id": "5",
+    "cover": "https://i.ibb.co/pZ2Dqnc/kateryna-hliznitsova-e-Iu-CJCf-Rcv-I-unsplash.jpg",
+    "title": "The Catcher in the Rye Kill a Mockingbird To Kill a Mockingbird",
     "author": "J.D. Salinger",
-    "author_img": "[Link to author image]",
+    "author_img": "https://i.ibb.co/0CDq6N0/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
     "posted_date": "November 20, 2022",
     "reading_time": 4.5,
-    "hashtags": ["#comingofage", "#alienation", "#teenagers"]
+    "hashtags": [
+      "#comingofage",
+       "#alienation",
+        "#teenagers"]
   }
 ]
